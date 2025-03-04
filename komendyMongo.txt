@@ -1,0 +1,2 @@
+db.produkty.find({},{_id:0, kategoria:0, magazyn:0, producent:0})
+db.produkty.find().sort({cena:-1})
